@@ -1,1 +1,2 @@
-# Software-engineering-master
+# 说明：该仓库用来放置软件工程作业项目
+# 学号:3118005437
