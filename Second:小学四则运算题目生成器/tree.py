@@ -102,7 +102,7 @@ class Tree:
                     self.answer.append(answer)
             except NegativeError:                                                      # 异常处理，结果不可为负数
                continue
-            except ZeroDivisionError:
+            except ZeroDivisionError:                                                  #异常处理，分母不可为0
                 continue
             else:
                 num += 1
