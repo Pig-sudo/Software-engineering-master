@@ -81,7 +81,7 @@ class Tree:
 
             for node in empty_node:
                 node.type = 1
-                num_type = random.choice(self.type)   # 随机选择，生成整数还是小数
+                num_type = random.choice(self.type)   # 随机选择，生成整数还是分数
                 if num_type == 1:
                     node.number = random.randint(1, number)
                 else:
